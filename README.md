@@ -1,4 +1,4 @@
-[@aureooms/js-skip-list](https://aureooms.github.io/js-skip-list)
+:fast_forward: [@aureooms/js-skip-list](https://aureooms.github.io/js-skip-list)
 ==
 
 Skip list data structure for JavaScript.

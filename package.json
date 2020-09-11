@@ -27,6 +27,7 @@
             "transform-remove-console",
             {
               "exclude": [
+                "debug",
                 "log",
                 "error",
                 "warn"
@@ -77,6 +78,10 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@aureooms/js-cardinality": "^2.0.0",
+    "@aureooms/js-compare": "^1.4.8",
+    "@aureooms/js-itertools": "^4.1.0",
+    "@aureooms/js-random": "^2.0.0",
     "@babel/cli": "7.11.6",
     "@babel/core": "7.11.6",
     "@babel/preset-env": "7.11.5",
@@ -101,7 +106,15 @@
     "lib"
   ],
   "homepage": "https://aureooms.github.io/js-skip-list",
-  "keywords": ["data", "list", "randomized", "skip", "skip-list", "skiplist", "structures"],
+  "keywords": [
+    "data",
+    "list",
+    "randomized",
+    "skip",
+    "skip-list",
+    "skiplist",
+    "structures"
+  ],
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "prettier": {
@@ -133,12 +146,7 @@
       "unicorn"
     ],
     "rules": {
-      "unicorn/filename-case": [
-        "error",
-        {
-          "case": "camelCase"
-        }
-      ]
+      "unicorn/filename-case": "off"
     }
   }
 }
