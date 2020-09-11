@@ -7,6 +7,18 @@ See [docs](https://aureooms.github.io/js-skip-list/index.html).
 > :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
+```js
+import {decreasing} from '@aureooms/js-compare';
+import {range} from '@aureooms/js-itertools';
+import SkipList from '@aureooms/js-skip-list';
+const list = SkipList.from(decreasing, range(10000));
+[...list]; // [9999, 9998, ...]
+list.add(...)
+list.get(...)
+list.has(...)
+list.remove(...)
+```
+
 [![License](https://img.shields.io/github/license/aureooms/js-skip-list.svg)](https://raw.githubusercontent.com/aureooms/js-skip-list/master/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-skip-list.svg)](https://www.npmjs.org/package/@aureooms/js-skip-list)
 [![Build](https://img.shields.io/travis/aureooms/js-skip-list/master.svg)](https://travis-ci.org/aureooms/js-skip-list/branches)
