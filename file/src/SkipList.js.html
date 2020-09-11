@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/SkipList.js | @aureooms/js-skip-list</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Skip list data structure for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@aureooms/js-skip-list"><meta property="twitter:description" content="Skip list data structure for JavaScript"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/aureooms/js-skip-list"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Node">Node</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SkipList">SkipList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bottomMostPredecessor">bottomMostPredecessor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-debug">debug</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deleteFromTopMost">deleteFromTopMost</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-downMost">downMost</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-heads">heads</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-insertFromBottomMostPredecessor">insertFromBottomMostPredecessor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-iter">iter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-iterDown">iterDown</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-keys">keys</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-makeBottomLevel">makeBottomLevel</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-makeDeterministic">makeDeterministic</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-makeQuasiRandom">makeQuasiRandom</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-node">node</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-predecessorOnPreviousLevel">predecessorOnPreviousLevel</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-searchTopMost">searchTopMost</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/SkipList.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import assert from &apos;assert&apos;;
+import Node from &apos;./Node&apos;;
+import keys from &apos;./keys&apos;;
+import iter from &apos;./iter&apos;;
+import downMost from &apos;./downMost&apos;;
+import searchTopMost from &apos;./searchTopMost&apos;;
+import bottomMostPredecessor from &apos;./bottomMostPredecessor&apos;;
+import deleteFromTopMost from &apos;./deleteFromTopMost&apos;;
+import insertFromBottomMostPredecessor from &apos;./insertFromBottomMostPredecessor&apos;;
+import makeQuasiRandom from &apos;./makeQuasiRandom&apos;;
+import makeBottomLevel from &apos;./makeBottomLevel&apos;;
+
+/**
+ * @param {Number} p Promotion probability in (0,1).
+ * @param {Function} compare
+ * @param {Node} head
+ */
+export default function SkipList(p, compare, head = new Node()) {
+	this.head = head; // Sentinel node
+	this.p = p;
+	this.compare = compare;
+}
+
+SkipList.prototype.add = function (key) {
+	const node = bottomMostPredecessor(this.compare, this.head, key);
+	const pred = insertFromBottomMostPredecessor(this.p, node, key);
+	if (pred.left === null &amp;&amp; pred.up === null) this.head = pred;
+};
+
+SkipList.prototype.get = function (key) {
+	const node = searchTopMost(this.compare, this.head, key);
+	return node === null ? null : node.key;
+};
+
+SkipList.prototype.has = function (key) {
+	return searchTopMost(this.compare, this.head, key) !== null;
+};
+
+SkipList.prototype.remove = function (key) {
+	const node = searchTopMost(this.compare, this.head, key);
+	if (node === null) return false;
+
+	deleteFromTopMost(node);
+	return true;
+};
+
+SkipList.prototype._predecessor = function (key) {
+	return bottomMostPredecessor(this.compare, this.head, key);
+};
+
+SkipList.prototype.levelOne = function () {
+	return downMost(this.head);
+};
+
+SkipList.prototype.levels = function () {
+	assert(this.head !== null);
+	let k = 0;
+	let current = this.head;
+	do {
+		++k;
+		current = current.down;
+	} while (current !== null);
+
+	return k;
+};
+
+SkipList.prototype.keys = function () {
+	const level = this.levelOne();
+	return keys(level);
+};
+
+SkipList.prototype.values = function () {
+	return this.keys();
+};
+
+SkipList.prototype[Symbol.iterator] = function () {
+	return this.keys();
+};
+
+SkipList.prototype.range = function* (left, right) {
+	const pred = this._predecessor(left);
+	for (const node of iter(pred)) {
+		if (this.compare(node.key, right) &gt;= 0) break;
+		yield node.key;
+	}
+};
+
+SkipList.from = (compare, iterable, p = 1 / 2) =&gt; {
+	if (p === 1 / 2) {
+		const bottomLevelHead = makeBottomLevel(compare, iterable);
+		const head = makeQuasiRandom(p, bottomLevelHead);
+		return new SkipList(p, compare, head);
+	}
+
+	const list = new SkipList(p, compare);
+	for (const key of iterable) list.add(key);
+	return list;
+};
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

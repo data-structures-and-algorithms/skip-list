@@ -1,0 +1,1748 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/Node.js",
+    "content": "export default function Node(\n\tkey = undefined,\n\tdown = null,\n\tleft = null,\n\tright = null,\n\tup = null,\n) {\n\tthis.key = key;\n\tthis.right = right;\n\tthis.down = down;\n\tthis.left = left;\n\tthis.up = up;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/Node.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "Node",
+    "memberof": "src/Node.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Node.js~Node",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/Node.js",
+    "importStyle": "Node",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "undefined",
+        "defaultValue": "undefined"
+      },
+      {
+        "name": "down",
+        "optional": true,
+        "types": [
+          "undefined"
+        ],
+        "defaultValue": "undefined"
+      },
+      {
+        "name": "left",
+        "optional": true,
+        "types": [
+          "undefined"
+        ],
+        "defaultValue": "undefined"
+      },
+      {
+        "name": "right",
+        "optional": true,
+        "types": [
+          "undefined"
+        ],
+        "defaultValue": "undefined"
+      },
+      {
+        "name": "up",
+        "optional": true,
+        "types": [
+          "undefined"
+        ],
+        "defaultValue": "undefined"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/SkipList.js",
+    "content": "import assert from 'assert';\nimport Node from './Node';\nimport keys from './keys';\nimport iter from './iter';\nimport downMost from './downMost';\nimport searchTopMost from './searchTopMost';\nimport bottomMostPredecessor from './bottomMostPredecessor';\nimport deleteFromTopMost from './deleteFromTopMost';\nimport insertFromBottomMostPredecessor from './insertFromBottomMostPredecessor';\nimport makeQuasiRandom from './makeQuasiRandom';\nimport makeBottomLevel from './makeBottomLevel';\n\n/**\n * @param {Number} p Promotion probability in (0,1).\n * @param {Function} compare\n * @param {Node} head\n */\nexport default function SkipList(p, compare, head = new Node()) {\n\tthis.head = head; // Sentinel node\n\tthis.p = p;\n\tthis.compare = compare;\n}\n\nSkipList.prototype.add = function (key) {\n\tconst node = bottomMostPredecessor(this.compare, this.head, key);\n\tconst pred = insertFromBottomMostPredecessor(this.p, node, key);\n\tif (pred.left === null && pred.up === null) this.head = pred;\n};\n\nSkipList.prototype.get = function (key) {\n\tconst node = searchTopMost(this.compare, this.head, key);\n\treturn node === null ? null : node.key;\n};\n\nSkipList.prototype.has = function (key) {\n\treturn searchTopMost(this.compare, this.head, key) !== null;\n};\n\nSkipList.prototype.remove = function (key) {\n\tconst node = searchTopMost(this.compare, this.head, key);\n\tif (node === null) return false;\n\n\tdeleteFromTopMost(node);\n\treturn true;\n};\n\nSkipList.prototype._predecessor = function (key) {\n\treturn bottomMostPredecessor(this.compare, this.head, key);\n};\n\nSkipList.prototype.levelOne = function () {\n\treturn downMost(this.head);\n};\n\nSkipList.prototype.levels = function () {\n\tassert(this.head !== null);\n\tlet k = 0;\n\tlet current = this.head;\n\tdo {\n\t\t++k;\n\t\tcurrent = current.down;\n\t} while (current !== null);\n\n\treturn k;\n};\n\nSkipList.prototype.keys = function () {\n\tconst level = this.levelOne();\n\treturn keys(level);\n};\n\nSkipList.prototype.values = function () {\n\treturn this.keys();\n};\n\nSkipList.prototype[Symbol.iterator] = function () {\n\treturn this.keys();\n};\n\nSkipList.prototype.range = function* (left, right) {\n\tconst pred = this._predecessor(left);\n\tfor (const node of iter(pred)) {\n\t\tif (this.compare(node.key, right) >= 0) break;\n\t\tyield node.key;\n\t}\n};\n\nSkipList.from = (compare, iterable, p = 1 / 2) => {\n\tif (p === 1 / 2) {\n\t\tconst bottomLevelHead = makeBottomLevel(compare, iterable);\n\t\tconst head = makeQuasiRandom(p, bottomLevelHead);\n\t\treturn new SkipList(p, compare, head);\n\t}\n\n\tconst list = new SkipList(p, compare);\n\tfor (const key of iterable) list.add(key);\n\treturn list;\n};\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/SkipList.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "SkipList",
+    "memberof": "src/SkipList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~SkipList",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": "SkipList",
+    "description": "",
+    "lineNumber": 18,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "p",
+        "description": "Promotion probability in (0,1)."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "compare",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Node"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "head",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "add",
+    "memberof": "src/SkipList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~add",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "get",
+    "memberof": "src/SkipList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~get",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "has",
+    "memberof": "src/SkipList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~has",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 35,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "remove",
+    "memberof": "src/SkipList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~remove",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 39,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "_predecessor",
+    "memberof": "src/SkipList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~_predecessor",
+    "access": "private",
+    "export": false,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 47,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "levelOne",
+    "memberof": "src/SkipList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~levelOne",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 51,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "levels",
+    "memberof": "src/SkipList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~levels",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 55,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "keys",
+    "memberof": "src/SkipList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~keys",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 67,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "values",
+    "memberof": "src/SkipList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~values",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 72,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "[Symbol.iterator]",
+    "memberof": "src/SkipList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~[Symbol.iterator]",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 76,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "range",
+    "memberof": "src/SkipList.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/SkipList.js~range",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-skip-list/src/SkipList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 80,
+    "undocument": true,
+    "params": [
+      {
+        "name": "left",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "right",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/bottomMostPredecessor.js",
+    "content": "import assert from 'assert';\n\nconst bottomMostPredecessor = (compare, node, key) => {\n\t// eslint-disable-next-line no-constant-condition\n\twhile (true) {\n\t\tassert(node !== null);\n\t\t// Predecessor search on current level\n\t\twhile (node.right !== null && compare(key, node.right.key) > 0)\n\t\t\tnode = node.right;\n\n\t\t// Continue on bottom level or abandon\n\t\tif (node.down === null) return node;\n\t\tnode = node.down;\n\t}\n};\n\nexport default bottomMostPredecessor;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/bottomMostPredecessor.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "function",
+    "name": "bottomMostPredecessor",
+    "memberof": "src/bottomMostPredecessor.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/bottomMostPredecessor.js~bottomMostPredecessor",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/bottomMostPredecessor.js",
+    "importStyle": "bottomMostPredecessor",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "compare",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "src/debug.js",
+    "content": "import iter from './iter';\nimport iterDown from './iterDown';\nimport {enumerate} from '@aureooms/js-itertools';\nimport {count} from '@aureooms/js-cardinality';\n\nexport default function* debug(skiplist) {\n\tfor (const [k, sentinel] of enumerate(iterDown(skiplist.head))) {\n\t\tyield [k, count(iter(sentinel))];\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/debug.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "function",
+    "name": "debug",
+    "memberof": "src/debug.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/debug.js~debug",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/debug.js",
+    "importStyle": "debug",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "skiplist",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "src/deleteFromTopMost.js",
+    "content": "import assert from 'assert';\n\nconst deleteFromTopMost = (node) => {\n\tassert(node !== null);\n\tassert(node.up === null); // Node is from top-most level\n\tdo {\n\t\tassert(node.left !== null); // Node is not sentinel\n\t\tnode.left.right = node.right;\n\t\tif (node.right !== null) node.right.left = node.left;\n\t\tnode = node.down;\n\t} while (node !== null);\n};\n\nexport default deleteFromTopMost;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/deleteFromTopMost.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "deleteFromTopMost",
+    "memberof": "src/deleteFromTopMost.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/deleteFromTopMost.js~deleteFromTopMost",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/deleteFromTopMost.js",
+    "importStyle": "deleteFromTopMost",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/downMost.js",
+    "content": "import assert from 'assert';\n\nconst downMost = (node) => {\n\tassert(node !== null);\n\twhile (node.down !== null) node = node.down;\n\treturn node;\n};\n\nexport default downMost;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/downMost.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "function",
+    "name": "downMost",
+    "memberof": "src/downMost.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/downMost.js~downMost",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/downMost.js",
+    "importStyle": "downMost",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "file",
+    "name": "src/heads.js",
+    "content": "// See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random\n// \"The Math.random() function returns a floating-point, pseudo-random number in\n// the range 0 to less than 1 (inclusive of 0, but not 1)\"\nconst heads = (bias = 1 / 2) => Math.random() < bias;\n\nexport default heads;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/heads.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "name": "heads",
+    "memberof": "src/heads.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/heads.js~heads",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/heads.js",
+    "importStyle": "heads",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "bias",
+        "optional": true,
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 73,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import Node from './Node';\nimport SkipList from './SkipList';\nimport bottomMostPredecessor from './bottomMostPredecessor';\nimport debug from './debug';\nimport deleteFromTopMost from './deleteFromTopMost';\nimport downMost from './downMost';\nimport heads from './heads';\nimport insertFromBottomMostPredecessor from './insertFromBottomMostPredecessor';\nimport iter from './iter';\nimport iterDown from './iterDown';\nimport keys from './keys';\nimport makeBottomLevel from './makeBottomLevel';\nimport makeDeterministic from './makeDeterministic';\nimport makeQuasiRandom from './makeQuasiRandom';\nimport node from './node';\nimport predecessorOnPreviousLevel from './predecessorOnPreviousLevel';\nimport searchTopMost from './searchTopMost';\n\nexport default SkipList;\n\nexport {\n\tNode,\n\tSkipList,\n\tbottomMostPredecessor,\n\tdebug,\n\tdeleteFromTopMost,\n\tdownMost,\n\theads,\n\tinsertFromBottomMostPredecessor,\n\titer,\n\titerDown,\n\tkeys,\n\tmakeBottomLevel,\n\tmakeDeterministic,\n\tmakeQuasiRandom,\n\tnode,\n\tpredecessorOnPreviousLevel,\n\tsearchTopMost,\n};\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "src/insertFromBottomMostPredecessor.js",
+    "content": "import assert from 'assert';\n\nimport node from './node';\nimport heads from './heads';\nimport predecessorOnPreviousLevel from './predecessorOnPreviousLevel';\n\nconst insertFromBottomMostPredecessor = (p, pred, key) => {\n\tassert(pred !== null);\n\tlet newNode = node(key, null, pred, pred.right);\n\twhile (heads(p)) {\n\t\tpred = predecessorOnPreviousLevel(pred);\n\t\tassert(pred !== null);\n\t\tnewNode = node(key, newNode, pred, pred.right);\n\t}\n\n\treturn pred;\n};\n\nexport default insertFromBottomMostPredecessor;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/insertFromBottomMostPredecessor.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "function",
+    "name": "insertFromBottomMostPredecessor",
+    "memberof": "src/insertFromBottomMostPredecessor.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/insertFromBottomMostPredecessor.js~insertFromBottomMostPredecessor",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/insertFromBottomMostPredecessor.js",
+    "importStyle": "insertFromBottomMostPredecessor",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "p",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "pred",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/iter.js",
+    "content": "import assert from 'assert';\n\nexport default function* iter(head) {\n\tassert(head !== null);\n\twhile (head.right !== null) {\n\t\thead = head.right;\n\t\tyield head;\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/iter.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "iter",
+    "memberof": "src/iter.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/iter.js~iter",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/iter.js",
+    "importStyle": "iter",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "head",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "src/iterDown.js",
+    "content": "export default function* iterDown(head) {\n\twhile (head !== null) {\n\t\tyield head;\n\t\thead = head.down;\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/iterDown.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "iterDown",
+    "memberof": "src/iterDown.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/iterDown.js~iterDown",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/iterDown.js",
+    "importStyle": "iterDown",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "head",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "name": "src/keys.js",
+    "content": "import iter from './iter';\n\nexport default function* keys(level) {\n\tfor (const node of iter(level)) yield node.key;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/keys.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 81,
+    "kind": "function",
+    "name": "keys",
+    "memberof": "src/keys.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/keys.js~keys",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/keys.js",
+    "importStyle": "keys",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "level",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "src/makeBottomLevel.js",
+    "content": "import Node from './Node';\n\nconst makeBottomLevel = (compare, iterable) => {\n\tconst sorted = [...iterable].sort(compare);\n\tconst bottomLevelHead = new Node();\n\tlet current = bottomLevelHead;\n\tfor (const key of sorted) {\n\t\tcurrent = new Node(key, null, current);\n\t\tcurrent.left.right = current;\n\t}\n\n\treturn bottomLevelHead;\n};\n\nexport default makeBottomLevel;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/makeBottomLevel.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "name": "makeBottomLevel",
+    "memberof": "src/makeBottomLevel.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/makeBottomLevel.js~makeBottomLevel",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/makeBottomLevel.js",
+    "importStyle": "makeBottomLevel",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "compare",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "iterable",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "file",
+    "name": "src/makeDeterministic.js",
+    "content": "import assert from 'assert';\nimport Node from './Node';\n\n/**\n * Make a balanced Skip-list with p = 1/2.\n */\nconst makeDeterministic = (p, head) => {\n\tassert(p === 1 / 2);\n\n\t// Together, the if and while conditions guarantee that `makeQuasiRandom`\n\t// does not do anything if the number of elements is <= 1\n\t// TODO Could use some other constant?\n\tif (head.right === null) return head;\n\n\twhile (head.right.right !== null) {\n\t\tconst newHead = new Node(head.key, head);\n\n\t\tlet current = head;\n\t\tlet next = newHead;\n\t\twhile (current.right !== null) {\n\t\t\tcurrent = current.right;\n\t\t\tif (current.right === null) break; // Skip odd indexed nodes\n\t\t\tcurrent = current.right;\n\t\t\tnext = new Node(current.key, current, next);\n\t\t\tnext.left.right = next;\n\t\t\tcurrent.up = next;\n\t\t}\n\n\t\thead.up = newHead;\n\t\thead = newHead;\n\t\tassert(head.right !== null);\n\t}\n\n\treturn head;\n};\n\nexport default makeDeterministic;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/makeDeterministic.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "makeDeterministic",
+    "memberof": "src/makeDeterministic.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/makeDeterministic.js~makeDeterministic",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/makeDeterministic.js",
+    "importStyle": "makeDeterministic",
+    "description": "Make a balanced Skip-list with p = 1/2.",
+    "lineNumber": 7,
+    "params": [
+      {
+        "name": "p",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "head",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "file",
+    "name": "src/makeQuasiRandom.js",
+    "content": "import assert from 'assert';\nimport Node from './Node';\nimport heads from './heads';\n\n/**\n * Make a balanced Skip-list with p = 1/2 but randomizing the choice of\n * promoted nodes at each level.\n */\nconst makeQuasiRandom = (p, head) => {\n\tassert(p === 1 / 2);\n\n\t// Together, the if and while conditions guarantee that `makeQuasiRandom`\n\t// does not do anything if the number of elements is <= 1\n\t// TODO Could use some other constant?\n\tif (head.right === null) return head;\n\n\twhile (head.right.right !== null) {\n\t\tconst newHead = new Node(head.key, head);\n\n\t\tlet current = head;\n\t\tlet next = newHead;\n\t\twhile (current.right !== null) {\n\t\t\tcurrent = current.right;\n\t\t\tlet previousPromoted = false;\n\n\t\t\tif (heads(1 / 2)) {\n\t\t\t\tpreviousPromoted = true;\n\t\t\t\tnext = new Node(current.key, current, next);\n\t\t\t\tnext.left.right = next;\n\t\t\t\tcurrent.up = next;\n\t\t\t\t// TODO can reduce branching by getting rid of `previousPromoted`\n\t\t\t}\n\n\t\t\tif (current.right === null) break;\n\t\t\tcurrent = current.right;\n\t\t\tif (!previousPromoted) {\n\t\t\t\tnext = new Node(current.key, current, next);\n\t\t\t\tnext.left.right = next;\n\t\t\t\tcurrent.up = next;\n\t\t\t}\n\t\t}\n\n\t\thead.up = newHead;\n\t\thead = newHead;\n\t\tassert(head.right !== null);\n\t}\n\n\treturn head;\n};\n\nexport default makeQuasiRandom;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/makeQuasiRandom.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "makeQuasiRandom",
+    "memberof": "src/makeQuasiRandom.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/makeQuasiRandom.js~makeQuasiRandom",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/makeQuasiRandom.js",
+    "importStyle": "makeQuasiRandom",
+    "description": "Make a balanced Skip-list with p = 1/2 but randomizing the choice of\npromoted nodes at each level.",
+    "lineNumber": 9,
+    "params": [
+      {
+        "name": "p",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "head",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "src/node.js",
+    "content": "import Node from './Node';\n\nconst node = (\n\tkey = undefined,\n\tdown = null,\n\tleft = null,\n\tright = null,\n\tup = null,\n) => {\n\tconst newNode = new Node(key, down, left, right, up);\n\tif (down !== null) down.up = newNode;\n\tif (left !== null) left.right = newNode;\n\tif (right !== null) right.left = newNode;\n\tif (up !== null) up.down = newNode;\n\treturn newNode;\n};\n\nexport default node;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/node.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "node",
+    "memberof": "src/node.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/node.js~node",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/node.js",
+    "importStyle": "node",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "undefined",
+        "defaultValue": "undefined"
+      },
+      {
+        "name": "down",
+        "optional": true,
+        "types": [
+          "undefined"
+        ],
+        "defaultValue": "undefined"
+      },
+      {
+        "name": "left",
+        "optional": true,
+        "types": [
+          "undefined"
+        ],
+        "defaultValue": "undefined"
+      },
+      {
+        "name": "right",
+        "optional": true,
+        "types": [
+          "undefined"
+        ],
+        "defaultValue": "undefined"
+      },
+      {
+        "name": "up",
+        "optional": true,
+        "types": [
+          "undefined"
+        ],
+        "defaultValue": "undefined"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "file",
+    "name": "src/predecessorOnPreviousLevel.js",
+    "content": "import assert from 'assert';\n\nimport Node from './Node';\n\nconst predecessorOnPreviousLevel = (node) => {\n\tassert(node !== null);\n\n\twhile (node.up === null) {\n\t\tif (node.left === null) {\n\t\t\tconst newNode = new Node(undefined, node); // Top-most left-most sentinel\n\t\t\tnode.up = newNode;\n\t\t\treturn newNode;\n\t\t}\n\n\t\tnode = node.left;\n\t}\n\n\treturn node.up;\n};\n\nexport default predecessorOnPreviousLevel;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/predecessorOnPreviousLevel.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "predecessorOnPreviousLevel",
+    "memberof": "src/predecessorOnPreviousLevel.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/predecessorOnPreviousLevel.js~predecessorOnPreviousLevel",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/predecessorOnPreviousLevel.js",
+    "importStyle": "predecessorOnPreviousLevel",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "file",
+    "name": "src/searchTopMost.js",
+    "content": "import assert from 'assert';\n\nconst searchTopMost = (compare, node, key) => {\n\t// eslint-disable-next-line no-constant-condition\n\twhile (true) {\n\t\tassert(node !== null);\n\t\tif (node.right === null) {\n\t\t\tif (node.down === null) {\n\t\t\t\treturn null;\n\t\t\t}\n\n\t\t\tnode = node.down;\n\t\t} else {\n\t\t\tconst d = compare(key, node.right.key);\n\t\t\tif (d === 0) {\n\t\t\t\tassert(node.right.up === null);\n\t\t\t\treturn node.right;\n\t\t\t}\n\n\t\t\tif (d > 0) node = node.right;\n\t\t\telse {\n\t\t\t\tif (node.down === null) {\n\t\t\t\t\treturn null;\n\t\t\t\t}\n\n\t\t\t\tnode = node.down;\n\t\t\t}\n\t\t}\n\t}\n};\n\nexport default searchTopMost;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-skip-list/src/searchTopMost.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "searchTopMost",
+    "memberof": "src/searchTopMost.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/searchTopMost.js~searchTopMost",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-skip-list/src/searchTopMost.js",
+    "importStyle": "searchTopMost",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "compare",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": ":fast_forward: [@aureooms/js-skip-list](https://aureooms.github.io/js-skip-list)\n==\n\nSkip list data structure for JavaScript.\nSee [docs](https://aureooms.github.io/js-skip-list/index.html).\n\n> :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing\n> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).\n\n```js\nimport {decreasing} from '@aureooms/js-compare';\nimport {range} from '@aureooms/js-itertools';\nimport SkipList from '@aureooms/js-skip-list';\nconst list = SkipList.from(decreasing, range(10000));\n[...list]; // [9999, 9998, ...]\nlist.add(...)\nlist.get(...)\nlist.has(...)\nlist.remove(...)\n```\n\n[![License](https://img.shields.io/github/license/aureooms/js-skip-list.svg)](https://raw.githubusercontent.com/aureooms/js-skip-list/master/LICENSE)\n[![Version](https://img.shields.io/npm/v/@aureooms/js-skip-list.svg)](https://www.npmjs.org/package/@aureooms/js-skip-list)\n[![Build](https://img.shields.io/travis/aureooms/js-skip-list/master.svg)](https://travis-ci.org/aureooms/js-skip-list/branches)\n[![Dependencies](https://img.shields.io/david/aureooms/js-skip-list.svg)](https://david-dm.org/aureooms/js-skip-list)\n[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-skip-list.svg)](https://david-dm.org/aureooms/js-skip-list?type=dev)\n[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-skip-list.svg)](https://github.com/aureooms/js-skip-list/issues)\n[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-skip-list.svg)](https://www.npmjs.org/package/@aureooms/js-skip-list)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-skip-list/master.svg)](https://codecov.io/gh/aureooms/js-skip-list)\n<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-skip-list/master.svg)](https://coveralls.io/r/aureooms/js-skip-list)-->\n<!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/trends/test_coverage_new_code)-->\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/trends/technical_debt)\n[![Documentation](https://aureooms.github.io/js-skip-list/badge.svg)](https://aureooms.github.io/js-skip-list/source.html)\n[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-skip-list)](https://bundlephobia.com/result?p=@aureooms/js-skip-list)\n",
+    "longname": "/home/aureooms/dev/js/js-skip-list/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@aureooms/js-skip-list\",\n  \"description\": \"Skip list data structure for JavaScript\",\n  \"version\": \"0.0.0\",\n  \"author\": \"aureooms\",\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"require\": [\n      \"regenerator-runtime/runtime\",\n      \"@babel/register\"\n    ],\n    \"timeout\": \"1m\"\n  },\n  \"babel\": {\n    \"presets\": [\n      \"@babel/preset-env\"\n    ],\n    \"env\": {\n      \"test\": {\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"debug\",\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ],\n        \"sourceMaps\": \"inline\"\n      },\n      \"development\": {\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ],\n        \"sourceMaps\": \"inline\"\n      },\n      \"production\": {\n        \"plugins\": [\n          \"babel-plugin-unassert\",\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ],\n        \"sourceMaps\": \"inline\"\n      }\n    }\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/aureooms/js-skip-list/issues\"\n  },\n  \"dependencies\": {},\n  \"devDependencies\": {\n    \"@aureooms/js-cardinality\": \"^2.0.0\",\n    \"@aureooms/js-compare\": \"^1.4.8\",\n    \"@aureooms/js-itertools\": \"^4.1.0\",\n    \"@aureooms/js-random\": \"^2.0.0\",\n    \"@babel/cli\": \"7.11.6\",\n    \"@babel/core\": \"7.11.6\",\n    \"@babel/preset-env\": \"7.11.5\",\n    \"@babel/register\": \"7.11.5\",\n    \"ava\": \"3.12.1\",\n    \"babel-plugin-transform-remove-console\": \"6.9.4\",\n    \"babel-plugin-unassert\": \"3.0.1\",\n    \"babel-preset-power-assert\": \"3.0.0\",\n    \"coveralls\": \"3.1.0\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"1.0.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"np\": \"6.5.0\",\n    \"nyc\": \"15.1.0\",\n    \"power-assert\": \"1.6.1\",\n    \"regenerator-runtime\": \"0.13.7\",\n    \"xo\": \"0.33.1\"\n  },\n  \"files\": [\n    \"lib\"\n  ],\n  \"homepage\": \"https://aureooms.github.io/js-skip-list\",\n  \"keywords\": [\n    \"data\",\n    \"list\",\n    \"randomized\",\n    \"skip\",\n    \"skip-list\",\n    \"skiplist\",\n    \"structures\"\n  ],\n  \"license\": \"AGPL-3.0\",\n  \"main\": \"lib/index.js\",\n  \"prettier\": {\n    \"trailingComma\": \"all\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/aureooms/js-skip-list\"\n  },\n  \"scripts\": {\n    \"build\": \"babel --delete-dir-on-start --env-name production src -d lib\",\n    \"cover\": \"nyc --reporter=lcov npm test\",\n    \"esdoc\": \"esdoc\",\n    \"prepare\": \"npm run build\",\n    \"release\": \"np\",\n    \"test\": \"ava\",\n    \"lint\": \"xo\",\n    \"dev\": \"npm run lint -- --fix && npm run cover -- -- -st --fail-fast\",\n    \"travis\": \"npm run lint && npm run cover\"\n  },\n  \"sideEffects\": false,\n  \"xo\": {\n    \"prettier\": true,\n    \"ignore\": [\n      \"lib\",\n      \"doc\"\n    ],\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"unicorn/filename-case\": \"off\"\n    }\n  }\n}\n",
+    "longname": "/home/aureooms/dev/js/js-skip-list/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-skip-list/doc/manual/overview.md",
+    "name": "./doc/manual/overview.md",
+    "content": "# Overview\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-skip-list/doc/manual/installation.md",
+    "name": "./doc/manual/installation.md",
+    "content": "# Installation\n\nCan be managed using\n[yarn](https://yarnpkg.com/en/docs),\n[npm](https://docs.npmjs.com),\nor [jspm](https://jspm.org/docs).\n\n\n### yarn\n```terminal\nyarn add @aureooms/js-skip-list\n```\n\n### npm\n```terminal\nnpm install @aureooms/js-skip-list --save\n```\n\n### jspm\n```terminal\njspm install npm:@aureooms/js-skip-list\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-skip-list/doc/manual/usage.md",
+    "name": "./doc/manual/usage.md",
+    "content": "# Usage\n\n> :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing\n> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).\n\nFirst, require the polyfill at the entry point of your application\n```js\nrequire( 'regenerator-runtime/runtime' );\n// or\nimport 'regenerator-runtime/runtime.js' ;\n```\n\nThen, import the library where needed\n```js\nconst skiplist = require( '@aureooms/js-skip-list' ) ;\n// or\nimport * as skiplist from '@aureooms/js-skip-list' ;\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-skip-list/doc/manual/example.md",
+    "name": "./doc/manual/example.md",
+    "content": "# Examples\n\n> More examples in [the test files](https://github.com/aureooms/js-skip-list/tree/master/test/src).\n",
+    "static": true,
+    "access": "public"
+  }
+]
