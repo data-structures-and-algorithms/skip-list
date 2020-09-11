@@ -13,6 +13,7 @@ import makeBottomLevel from './makeBottomLevel';
 /**
  * @param {Number} p Promotion probability in (0,1).
  * @param {Function} compare
+ * @param {Node} head
  */
 export default function SkipList(p, compare, head = new Node()) {
 	this.head = head; // Sentinel node
