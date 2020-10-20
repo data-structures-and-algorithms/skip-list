@@ -55,14 +55,14 @@ test('SkipList::range (with duplicates)', (t) => {
 		14,
 	];
 	const tree = SkipList.from(increasing, iterable);
-	t.deepEqual([], list(tree.range(17, 17)));
-	t.deepEqual([17, 21, 23, 23, 23, 41, 55, 55], list(tree.range(17, 99)));
-	t.deepEqual([17, 21, 23, 23, 23, 41, 55, 55, 99], list(tree.range(17, 100)));
-	t.deepEqual([23, 23, 23, 41, 55, 55, 99], list(tree.range(22, 100)));
-	t.deepEqual([23, 23, 23, 41, 55, 55, 99], list(tree.range(23, 100)));
-	t.deepEqual([23, 23, 23, 41, 55, 55], list(tree.range(23, 99)));
-	t.deepEqual([41, 55, 55], list(tree.range(24, 99)));
-	t.deepEqual([55, 55], list(tree.range(42, 99)));
-	t.deepEqual([55, 55], list(tree.range(55, 56)));
-	t.deepEqual([], list(tree.range(55, 55)));
+	t.deepEqual(list(tree.range(17, 17)), []);
+	t.deepEqual(list(tree.range(17, 99)), [17, 21, 23, 23, 23, 41, 55, 55]);
+	t.deepEqual(list(tree.range(17, 100)), [17, 21, 23, 23, 23, 41, 55, 55, 99]);
+	t.deepEqual(list(tree.range(22, 100)), [23, 23, 23, 41, 55, 55, 99]);
+	t.deepEqual(list(tree.range(23, 100)), [23, 23, 23, 41, 55, 55, 99]);
+	t.deepEqual(list(tree.range(23, 99)), [23, 23, 23, 41, 55, 55]);
+	t.deepEqual(list(tree.range(24, 99)), [41, 55, 55]);
+	t.deepEqual(list(tree.range(42, 99)), [55, 55]);
+	t.deepEqual(list(tree.range(55, 56)), [55, 55]);
+	t.deepEqual(list(tree.range(55, 55)), []);
 });

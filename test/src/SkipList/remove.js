@@ -25,7 +25,7 @@ test('SkipList::remove', (t) => {
 
 	// Console.log(reference);
 
-	const m = (n / 2) | 0;
+	const m = Math.floor(n / 2);
 
 	for (const i of range(m)) {
 		const x = reference[i];

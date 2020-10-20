@@ -10,7 +10,7 @@ test('SkipList::get', (t) => {
 	for (const compare of [increasing, decreasing]) {
 		const tree = new SkipList(1 / 2, compare);
 
-		t.is(null, tree.get(0));
+		t.is(tree.get(0), null);
 
 		const n = 10000;
 		const reference = [];
@@ -24,7 +24,7 @@ test('SkipList::get', (t) => {
 			t.deepEqual(x, tree.get(x));
 		}
 
-		t.is(null, tree.get(-1));
-		t.is(null, tree.get(n));
+		t.is(tree.get(-1), null);
+		t.is(tree.get(n), null);
 	}
 });

@@ -13,8 +13,8 @@ test('debug (empty)', (t) => {
 		const head = makeDeterministic(p, bottomLevelHead);
 		const skiplist = new SkipList(p, compare, head);
 
-		t.deepEqual([[0, 0]], list(debug(skiplist)));
-		t.is(1, skiplist.levels());
+		t.deepEqual(list(debug(skiplist)), [[0, 0]]);
+		t.is(skiplist.levels(), 1);
 	}
 });
 
@@ -30,11 +30,11 @@ test('debug', (t) => {
 			const skiplist = new SkipList(p, compare, head);
 
 			t.deepEqual(
-				list(map((k) => [k, 2 ** k], range(levels))),
 				list(debug(skiplist)),
+				list(map((k) => [k, 2 ** k], range(levels))),
 			);
 
-			t.is(levels, skiplist.levels());
+			t.is(skiplist.levels(), levels);
 		}
 	}
 });
@@ -47,14 +47,11 @@ test('debug (7)', (t) => {
 		const head = makeDeterministic(p, bottomLevelHead);
 		const skiplist = new SkipList(p, compare, head);
 
-		t.deepEqual(
-			[
-				[0, 1],
-				[1, 3],
-				[2, 7],
-			],
-			list(debug(skiplist)),
-		);
-		t.is(3, skiplist.levels());
+		t.deepEqual(list(debug(skiplist)), [
+			[0, 1],
+			[1, 3],
+			[2, 7],
+		]);
+		t.is(skiplist.levels(), 3);
 	}
 });
