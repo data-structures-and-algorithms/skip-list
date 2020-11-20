@@ -19,9 +19,9 @@ list.has(...)
 list.remove(...)
 ```
 
-[![License](https://img.shields.io/github/license/aureooms/js-skip-list.svg)](https://raw.githubusercontent.com/aureooms/js-skip-list/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-skip-list.svg)](https://raw.githubusercontent.com/aureooms/js-skip-list/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-skip-list.svg)](https://www.npmjs.org/package/@aureooms/js-skip-list)
-[![Build](https://img.shields.io/travis/aureooms/js-skip-list/master.svg)](https://travis-ci.org/aureooms/js-skip-list/branches)
+[![Build](https://img.shields.io/travis/aureooms/js-skip-list/main.svg)](https://travis-ci.org/aureooms/js-skip-list/branches)
 [![Dependencies](https://img.shields.io/david/aureooms/js-skip-list.svg)](https://david-dm.org/aureooms/js-skip-list)
 [![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-skip-list.svg)](https://david-dm.org/aureooms/js-skip-list?type=dev)
 [![GitHub issues](https://img.shields.io/github/issues/aureooms/js-skip-list.svg)](https://github.com/aureooms/js-skip-list/issues)
@@ -29,8 +29,8 @@ list.remove(...)
 
 [![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/issues)
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-skip-list/master.svg)](https://codecov.io/gh/aureooms/js-skip-list)
-<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-skip-list/master.svg)](https://coveralls.io/r/aureooms/js-skip-list)-->
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-skip-list/main.svg)](https://codecov.io/gh/aureooms/js-skip-list)
+<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-skip-list/main.svg)](https://coveralls.io/r/aureooms/js-skip-list)-->
 <!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/trends/test_coverage_new_code)-->
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/trends/technical_debt)
 [![Documentation](https://aureooms.github.io/js-skip-list/badge.svg)](https://aureooms.github.io/js-skip-list/source.html)
