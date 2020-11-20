@@ -30,8 +30,6 @@ list.remove(...)
 [![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/issues)
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-skip-list/main.svg)](https://codecov.io/gh/aureooms/js-skip-list)
-<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-skip-list/main.svg)](https://coveralls.io/r/aureooms/js-skip-list)-->
-<!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/trends/test_coverage_new_code)-->
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/trends/technical_debt)
 [![Documentation](https://aureooms.github.io/js-skip-list/badge.svg)](https://aureooms.github.io/js-skip-list/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-skip-list)](https://bundlephobia.com/result?p=@aureooms/js-skip-list)
