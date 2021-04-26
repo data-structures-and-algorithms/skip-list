@@ -1,8 +1,8 @@
-:fast_forward: [@aureooms/js-skip-list](https://aureooms.github.io/js-skip-list)
+:fast_forward: [@aureooms/js-skip-list](https://make-github-pseudonymous-again.github.io/js-skip-list)
 ==
 
 Skip list data structure for JavaScript.
-See [docs](https://aureooms.github.io/js-skip-list/index.html).
+See [docs](https://make-github-pseudonymous-again.github.io/js-skip-list/index.html).
 
 > :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
@@ -31,5 +31,5 @@ list.remove(...)
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-skip-list/main.svg)](https://codecov.io/gh/aureooms/js-skip-list)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-skip-list.svg)](https://codeclimate.com/github/aureooms/js-skip-list/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-skip-list/badge.svg)](https://aureooms.github.io/js-skip-list/source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-skip-list/badge.svg)](https://make-github-pseudonymous-again.github.io/js-skip-list/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-skip-list)](https://bundlephobia.com/result?p=@aureooms/js-skip-list)
