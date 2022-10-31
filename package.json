@@ -212,6 +212,14 @@
     "ignores": [
       "lib",
       "doc"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "doc/**"
+        ],
+        "env": "browser"
+      }
     ]
   }
 }
