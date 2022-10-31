@@ -4,7 +4,8 @@
 Skip list data structure for JavaScript.
 See [docs](https://data-structures-and-algorithms.github.io/skip-list/index.html).
 
-> :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
+> :warning: Depending on your environment, the code may require
+> `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
 ```js
