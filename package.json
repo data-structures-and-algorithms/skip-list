@@ -109,6 +109,7 @@
     ],
     "env": {
       "debug": {
+        "sourceMaps": "both",
         "presets": [
           [
             "@babel/preset-env",
@@ -120,6 +121,7 @@
         ]
       },
       "test": {
+        "sourceMaps": "both",
         "presets": [
           [
             "@babel/preset-env",
