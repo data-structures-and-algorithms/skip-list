@@ -21,7 +21,7 @@ list.remove(...)
 
 [![License](https://img.shields.io/github/license/data-structures-and-algorithms/skip-list.svg)](https://raw.githubusercontent.com/data-structures-and-algorithms/skip-list/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@data-structure/skip-list.svg)](https://www.npmjs.org/package/@data-structure/skip-list)
-[![Build](https://img.shields.io/travis/data-structures-and-algorithms/skip-list/main.svg)](https://travis-ci.com/data-structures-and-algorithms/skip-list/branches)
+[![Tests](https://img.shields.io/github/workflow/status/data-structures-and-algorithms/skip-list/ci:test?event=push&label=tests)](https://github.com/data-structures-and-algorithms/skip-list/actions/workflows/ci:test.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/data-structures-and-algorithms/skip-list.svg)](https://github.com/data-structures-and-algorithms/skip-list/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/data-structures-and-algorithms/skip-list.svg)](https://github.com/data-structures-and-algorithms/skip-list/issues)
 [![Downloads](https://img.shields.io/npm/dm/@data-structure/skip-list.svg)](https://www.npmjs.org/package/@data-structure/skip-list)
