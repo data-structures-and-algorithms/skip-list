@@ -11,7 +11,7 @@ import {exhaust} from '@iterable-iterator/consume';
 
 import {shuffle} from '@randomized/random';
 
-import {SkipList} from '../../../src/index.js';
+import {SkipList} from '#module';
 
 test('SkipList::remove', (t) => {
 	const n = 10_000;

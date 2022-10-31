@@ -6,7 +6,7 @@ import {list} from '@iterable-iterator/list';
 import {range} from '@iterable-iterator/range';
 import {sorted} from '@iterable-iterator/sorted';
 
-import {SkipList} from '../../../src/index.js';
+import {SkipList} from '#module';
 
 const macro = (t, p, compare, n) => {
 	const tree = SkipList.from(compare, range(n), p);

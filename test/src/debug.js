@@ -6,12 +6,7 @@ import {range} from '@iterable-iterator/range';
 
 import {increasing, decreasing} from '@total-order/primitive';
 
-import {
-	SkipList,
-	makeBottomLevel,
-	makeDeterministic,
-	debug,
-} from '../../src/index.js';
+import {SkipList, makeBottomLevel, makeDeterministic, debug} from '#module';
 
 test('debug (empty)', (t) => {
 	for (const compare of [increasing, decreasing]) {

@@ -7,7 +7,7 @@ import {range} from '@iterable-iterator/range';
 
 import {shuffle} from '@randomized/random';
 
-import {SkipList} from '../../../src/index.js';
+import {SkipList} from '#module';
 
 test('SkipList::range', (t) => {
 	for (const [s, compare] of [

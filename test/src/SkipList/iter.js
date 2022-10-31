@@ -6,7 +6,7 @@ import {list} from '@iterable-iterator/list';
 import {range} from '@iterable-iterator/range';
 import {map} from '@iterable-iterator/map';
 
-import {SkipList} from '../../../src/index.js';
+import {SkipList} from '#module';
 
 test('SkipList::Symbol.iterator', (t) => {
 	for (const compare of [increasing, decreasing]) {

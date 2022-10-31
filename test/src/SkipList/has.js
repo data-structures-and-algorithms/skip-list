@@ -5,7 +5,7 @@ import {increasing, decreasing} from '@total-order/primitive';
 import {range} from '@iterable-iterator/range';
 import {map} from '@iterable-iterator/map';
 
-import {SkipList} from '../../../src/index.js';
+import {SkipList} from '#module';
 
 test('SkipList::has', (t) => {
 	for (const compare of [increasing, decreasing]) {
