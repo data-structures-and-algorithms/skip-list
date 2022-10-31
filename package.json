@@ -126,6 +126,7 @@
           ]
         ]
       },
+      "cover": {},
       "development": {
         "sourceMaps": "inline",
         "presets": [
