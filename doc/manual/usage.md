@@ -5,14 +5,14 @@
 
 First, require the polyfill at the entry point of your application
 ```js
-require( 'regenerator-runtime/runtime' );
+await import( 'regenerator-runtime/runtime.js' );
 // or
 import 'regenerator-runtime/runtime.js' ;
 ```
 
 Then, import the library where needed
 ```js
-const skiplist = require( '@data-structure/skip-list' ) ;
+const skiplist = await import( '@data-structure/skip-list' ) ;
 // or
 import * as skiplist from '@data-structure/skip-list' ;
 ```
