@@ -1,6 +1,6 @@
 import assert from 'assert';
-import Node from './Node';
-import heads from './heads';
+import Node from './Node.js';
+import heads from './heads.js';
 
 /**
  * Make a balanced Skip-list with p = 1/2 but randomizing the choice of

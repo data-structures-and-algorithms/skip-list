@@ -1,9 +1,17 @@
 import test from 'ava';
 
-import {range, list, map} from '@aureooms/js-itertools';
-import {increasing, decreasing} from '@aureooms/js-compare';
+import {list} from '@iterable-iterator/list';
+import {map} from '@iterable-iterator/map';
+import {range} from '@iterable-iterator/range';
 
-import {SkipList, makeBottomLevel, makeDeterministic, debug} from '../../src';
+import {increasing, decreasing} from '@total-order/primitive';
+
+import {
+	SkipList,
+	makeBottomLevel,
+	makeDeterministic,
+	debug,
+} from '../../src/index.js';
 
 test('debug (empty)', (t) => {
 	for (const compare of [increasing, decreasing]) {

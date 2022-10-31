@@ -1,15 +1,20 @@
 import test from 'ava';
 
-import {increasing} from '@aureooms/js-compare';
+import {increasing} from '@total-order/primitive';
 
-import {list, range, sorted, head, iter, exhaust} from '@aureooms/js-itertools';
+import {list} from '@iterable-iterator/list';
+import {range} from '@iterable-iterator/range';
+import {sorted} from '@iterable-iterator/sorted';
+import {head} from '@iterable-iterator/slice';
+import {iter} from '@iterable-iterator/iter';
+import {exhaust} from '@iterable-iterator/consume';
 
-import {shuffle} from '@aureooms/js-random';
+import {shuffle} from '@randomized/random';
 
-import {SkipList} from '../../../src';
+import {SkipList} from '../../../src/index.js';
 
 test('SkipList::remove', (t) => {
-	const n = 10000;
+	const n = 10_000;
 	const reference = list(range(n));
 	shuffle(reference, 0, n);
 

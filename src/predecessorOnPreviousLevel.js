@@ -1,6 +1,6 @@
 import assert from 'assert';
 
-import Node from './Node';
+import Node from './Node.js';
 
 const predecessorOnPreviousLevel = (node) => {
 	assert(node !== null);

@@ -1,8 +1,8 @@
 {
-  "name": "@aureooms/js-skip-list",
+  "name": "@data-structure/skip-list",
   "description": "Skip list data structure for JavaScript",
   "version": "0.0.1",
-  "author": "aureooms",
+  "author": "make-github-pseudonymous-again",
   "ava": {
     "files": [
       "test/src/**/*"
@@ -74,38 +74,46 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-skip-list/issues"
+    "url": "https://github.com/data-structures-and-algorithms/skip-list/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@iterable-iterator/cardinality": "^4.0.0",
+    "@iterable-iterator/zip": "^1.0.1"
+  },
   "devDependencies": {
-    "@aureooms/js-cardinality": "2.0.0",
-    "@aureooms/js-compare": "1.4.8",
-    "@aureooms/js-itertools": "5.0.1",
-    "@aureooms/js-random": "2.0.0",
-    "@babel/cli": "7.13.10",
-    "@babel/core": "7.13.10",
-    "@babel/preset-env": "7.13.10",
-    "@babel/register": "7.13.8",
+    "@babel/cli": "7.19.3",
+    "@babel/core": "7.19.6",
+    "@babel/preset-env": "7.19.4",
+    "@babel/register": "7.18.9",
+    "@iterable-iterator/consume": "^1.0.1",
+    "@iterable-iterator/iter": "^1.0.1",
+    "@iterable-iterator/list": "^1.0.1",
+    "@iterable-iterator/map": "^1.0.1",
+    "@iterable-iterator/range": "^2.1.0",
+    "@iterable-iterator/slice": "^1.0.2",
+    "@iterable-iterator/sorted": "^1.0.0",
+    "@randomized/random": "^4.1.0",
+    "@total-order/primitive": "^1.0.1",
     "ava": "3.15.0",
     "babel-plugin-transform-remove-console": "6.9.4",
-    "babel-plugin-unassert": "3.0.1",
+    "babel-plugin-unassert": "3.2.0",
     "babel-preset-power-assert": "3.0.0",
-    "coveralls": "3.1.0",
+    "coveralls": "3.1.1",
     "esdoc": "1.1.0",
     "esdoc-ecmascript-proposal-plugin": "1.0.0",
     "esdoc-inject-script-plugin": "1.0.0",
     "esdoc-inject-style-plugin": "1.0.0",
     "esdoc-standard-plugin": "1.0.0",
-    "np": "7.4.0",
+    "np": "7.6.2",
     "nyc": "15.1.0",
     "power-assert": "1.6.1",
-    "regenerator-runtime": "0.13.7",
-    "xo": "0.36.1"
+    "regenerator-runtime": "0.13.10",
+    "xo": "0.52.4"
   },
   "files": [
     "lib"
   ],
-  "homepage": "https://make-github-pseudonymous-again.github.io/js-skip-list",
+  "homepage": "https://data-structures-and-algorithms.github.io/skip-list",
   "keywords": [
     "data",
     "list",
@@ -122,7 +130,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/make-github-pseudonymous-again/js-skip-list"
+    "url": "https://github.com/data-structures-and-algorithms/skip-list"
   },
   "scripts": {
     "build": "babel --delete-dir-on-start --env-name production src -d lib",
@@ -142,7 +150,8 @@
       "unicorn"
     ],
     "rules": {
-      "unicorn/filename-case": "off"
+      "unicorn/filename-case": "off",
+      "unicorn/prefer-node-protocol": "off"
     },
     "ignores": [
       "lib",

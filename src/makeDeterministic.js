@@ -1,5 +1,5 @@
 import assert from 'assert';
-import Node from './Node';
+import Node from './Node.js';
 
 /**
  * Make a balanced Skip-list with p = 1/2.

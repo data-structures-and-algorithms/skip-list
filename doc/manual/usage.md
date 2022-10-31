@@ -12,7 +12,7 @@ import 'regenerator-runtime/runtime.js' ;
 
 Then, import the library where needed
 ```js
-const skiplist = require( '@aureooms/js-skip-list' ) ;
+const skiplist = require( '@data-structure/skip-list' ) ;
 // or
-import * as skiplist from '@aureooms/js-skip-list' ;
+import * as skiplist from '@data-structure/skip-list' ;
 ```

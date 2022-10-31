@@ -1,19 +1,20 @@
 import test from 'ava';
 
-import {increasing, decreasing} from '@aureooms/js-compare';
+import {increasing, decreasing} from '@total-order/primitive';
 
-import {list, range} from '@aureooms/js-itertools';
+import {list} from '@iterable-iterator/list';
+import {range} from '@iterable-iterator/range';
 
-import {shuffle} from '@aureooms/js-random';
+import {shuffle} from '@randomized/random';
 
-import {SkipList} from '../../../src';
+import {SkipList} from '../../../src/index.js';
 
 test('SkipList::range', (t) => {
 	for (const [s, compare] of [
 		[1, increasing],
 		[-1, decreasing],
 	]) {
-		const n = 10000;
+		const n = 10_000;
 		const reference = range(n);
 		shuffle(reference, 0, n);
 
@@ -34,25 +35,7 @@ test('SkipList::range', (t) => {
 
 test('SkipList::range (with duplicates)', (t) => {
 	const iterable = [
-		1,
-		2,
-		3,
-		55,
-		55,
-		23,
-		41,
-		23,
-		7,
-		7,
-		9,
-		21,
-		17,
-		11,
-		23,
-		99,
-		12374,
-		-11,
-		14,
+		1, 2, 3, 55, 55, 23, 41, 23, 7, 7, 9, 21, 17, 11, 23, 99, 12_374, -11, 14,
 	];
 	const tree = SkipList.from(increasing, iterable);
 	t.deepEqual(list(tree.range(17, 17)), []);

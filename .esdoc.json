@@ -35,7 +35,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-skip-list"
+          "title": "@data-structure/skip-list"
         },
         "test": {
           "type": "ava",

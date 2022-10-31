@@ -1,10 +1,12 @@
 import test from 'ava';
 
-import {increasing, decreasing} from '@aureooms/js-compare';
+import {increasing, decreasing} from '@total-order/primitive';
 
-import {list, range, map} from '@aureooms/js-itertools';
+import {list} from '@iterable-iterator/list';
+import {range} from '@iterable-iterator/range';
+import {map} from '@iterable-iterator/map';
 
-import {SkipList} from '../../../src';
+import {SkipList} from '../../../src/index.js';
 
 test('SkipList::Symbol.iterator', (t) => {
 	for (const compare of [increasing, decreasing]) {
@@ -14,7 +16,7 @@ test('SkipList::Symbol.iterator', (t) => {
 
 		t.is(a1.length, 0, 'tree contains 0 elements');
 
-		const n = 10000;
+		const n = 10_000;
 		const reference = [];
 
 		for (const x of map(Math.random, range(n))) {

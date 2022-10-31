@@ -8,15 +8,15 @@ or [jspm](https://jspm.org/docs).
 
 ### yarn
 ```terminal
-yarn add @aureooms/js-skip-list
+yarn add @data-structure/skip-list
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-skip-list --save
+npm install @data-structure/skip-list --save
 ```
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-skip-list
+jspm install npm:@data-structure/skip-list
 ```
