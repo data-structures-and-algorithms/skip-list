@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aureooms/js-cardinality@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-cardinality/-/js-cardinality-2.0.0.tgz#50ee445078be8871042eced4e900930ad873aba2"
-  integrity sha1-UO5EUHi+iHEELs7U6QCTCthzq6I=
+"@aureooms/js-cardinality@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-cardinality/-/js-cardinality-3.0.1.tgz#0dfbfd4cc7a9a48a2a972018e444eae1471295a7"
+  integrity sha512-p1bLNWG96bmjNlnSIlS82PePxML41vrcaoqgEyqSnjCFmQCjbPznfqTb2zegVIdgFmL/X0S0ToKXsTp8j8oR+A==
 
 "@aureooms/js-collections-deque@^6.0.1":
   version "6.0.1"
