@@ -1,7 +1,7 @@
 {
   "name": "@data-structure/skip-list",
   "description": "Skip list data structure for JavaScript",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
   "homepage": "https://data-structures-and-algorithms.github.io/skip-list",
