@@ -1,104 +1,104 @@
 window.esdocSearchIndex = [
   [
-    "@aureooms/js-skip-list/src/node.js~node",
+    "@data-structure/skip-list/src/node.js~node",
     "function/index.html#static-function-Node",
-    "<span>Node</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/Node.js</span>",
+    "<span>Node</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/Node.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/skiplist.js~skiplist",
+    "@data-structure/skip-list/src/skiplist.js~skiplist",
     "function/index.html#static-function-SkipList",
-    "<span>SkipList</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/SkipList.js</span>",
+    "<span>SkipList</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/SkipList.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/bottommostpredecessor.js~bottommostpredecessor",
+    "@data-structure/skip-list/src/bottommostpredecessor.js~bottommostpredecessor",
     "function/index.html#static-function-bottomMostPredecessor",
-    "<span>bottomMostPredecessor</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/bottomMostPredecessor.js</span>",
+    "<span>bottomMostPredecessor</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/bottomMostPredecessor.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/debug.js~debug",
+    "@data-structure/skip-list/src/debug.js~debug",
     "function/index.html#static-function-debug",
-    "<span>debug</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/debug.js</span>",
+    "<span>debug</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/debug.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/deletefromtopmost.js~deletefromtopmost",
+    "@data-structure/skip-list/src/deletefromtopmost.js~deletefromtopmost",
     "function/index.html#static-function-deleteFromTopMost",
-    "<span>deleteFromTopMost</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/deleteFromTopMost.js</span>",
+    "<span>deleteFromTopMost</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/deleteFromTopMost.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/downmost.js~downmost",
+    "@data-structure/skip-list/src/downmost.js~downmost",
     "function/index.html#static-function-downMost",
-    "<span>downMost</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/downMost.js</span>",
+    "<span>downMost</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/downMost.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/heads.js~heads",
+    "@data-structure/skip-list/src/heads.js~heads",
     "function/index.html#static-function-heads",
-    "<span>heads</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/heads.js</span>",
+    "<span>heads</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/heads.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/insertfrombottommostpredecessor.js~insertfrombottommostpredecessor",
+    "@data-structure/skip-list/src/insertfrombottommostpredecessor.js~insertfrombottommostpredecessor",
     "function/index.html#static-function-insertFromBottomMostPredecessor",
-    "<span>insertFromBottomMostPredecessor</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/insertFromBottomMostPredecessor.js</span>",
+    "<span>insertFromBottomMostPredecessor</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/insertFromBottomMostPredecessor.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/iter.js~iter",
+    "@data-structure/skip-list/src/iter.js~iter",
     "function/index.html#static-function-iter",
-    "<span>iter</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/iter.js</span>",
+    "<span>iter</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/iter.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/iterdown.js~iterdown",
+    "@data-structure/skip-list/src/iterdown.js~iterdown",
     "function/index.html#static-function-iterDown",
-    "<span>iterDown</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/iterDown.js</span>",
+    "<span>iterDown</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/iterDown.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/keys.js~keys",
+    "@data-structure/skip-list/src/keys.js~keys",
     "function/index.html#static-function-keys",
-    "<span>keys</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/keys.js</span>",
+    "<span>keys</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/keys.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/makebottomlevel.js~makebottomlevel",
+    "@data-structure/skip-list/src/makebottomlevel.js~makebottomlevel",
     "function/index.html#static-function-makeBottomLevel",
-    "<span>makeBottomLevel</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/makeBottomLevel.js</span>",
+    "<span>makeBottomLevel</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/makeBottomLevel.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/makedeterministic.js~makedeterministic",
+    "@data-structure/skip-list/src/makedeterministic.js~makedeterministic",
     "function/index.html#static-function-makeDeterministic",
-    "<span>makeDeterministic</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/makeDeterministic.js</span>",
+    "<span>makeDeterministic</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/makeDeterministic.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/makequasirandom.js~makequasirandom",
+    "@data-structure/skip-list/src/makequasirandom.js~makequasirandom",
     "function/index.html#static-function-makeQuasiRandom",
-    "<span>makeQuasiRandom</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/makeQuasiRandom.js</span>",
+    "<span>makeQuasiRandom</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/makeQuasiRandom.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/node.js~node",
+    "@data-structure/skip-list/src/node.js~node",
     "function/index.html#static-function-node",
-    "<span>node</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/node.js</span>",
+    "<span>node</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/node.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/predecessoronpreviouslevel.js~predecessoronpreviouslevel",
+    "@data-structure/skip-list/src/predecessoronpreviouslevel.js~predecessoronpreviouslevel",
     "function/index.html#static-function-predecessorOnPreviousLevel",
-    "<span>predecessorOnPreviousLevel</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/predecessorOnPreviousLevel.js</span>",
+    "<span>predecessorOnPreviousLevel</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/predecessorOnPreviousLevel.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-skip-list/src/searchtopmost.js~searchtopmost",
+    "@data-structure/skip-list/src/searchtopmost.js~searchtopmost",
     "function/index.html#static-function-searchTopMost",
-    "<span>searchTopMost</span> <span class=\"search-result-import-path\">@aureooms/js-skip-list/src/searchTopMost.js</span>",
+    "<span>searchTopMost</span> <span class=\"search-result-import-path\">@data-structure/skip-list/src/searchTopMost.js</span>",
     "function"
   ],
   [
