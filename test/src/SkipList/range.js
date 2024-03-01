@@ -1,11 +1,9 @@
 import test from 'ava';
 
-import {increasing, decreasing} from '@total-order/primitive';
-
 import {list} from '@iterable-iterator/list';
 import {range} from '@iterable-iterator/range';
-
 import {shuffle} from '@randomized/random';
+import {increasing, decreasing} from '@total-order/primitive';
 
 import {SkipList} from '#module';
 

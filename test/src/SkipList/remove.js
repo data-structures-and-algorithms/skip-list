@@ -1,15 +1,13 @@
 import test from 'ava';
 
-import {increasing} from '@total-order/primitive';
-
+import {exhaust} from '@iterable-iterator/consume';
+import {iter} from '@iterable-iterator/iter';
 import {list} from '@iterable-iterator/list';
 import {range} from '@iterable-iterator/range';
-import {sorted} from '@iterable-iterator/sorted';
 import {head} from '@iterable-iterator/slice';
-import {iter} from '@iterable-iterator/iter';
-import {exhaust} from '@iterable-iterator/consume';
-
+import {sorted} from '@iterable-iterator/sorted';
 import {shuffle} from '@randomized/random';
+import {increasing} from '@total-order/primitive';
 
 import {SkipList} from '#module';
 

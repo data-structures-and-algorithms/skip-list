@@ -1,5 +1,5 @@
-import {enumerate} from '@iterable-iterator/zip';
 import {count} from '@iterable-iterator/cardinality';
+import {enumerate} from '@iterable-iterator/zip';
 
 import iter from './iter.js';
 import iterDown from './iterDown.js';

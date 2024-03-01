@@ -3,7 +3,6 @@ import test from 'ava';
 import {list} from '@iterable-iterator/list';
 import {map} from '@iterable-iterator/map';
 import {range} from '@iterable-iterator/range';
-
 import {increasing, decreasing} from '@total-order/primitive';
 
 import {SkipList, makeBottomLevel, makeDeterministic, debug} from '#module';

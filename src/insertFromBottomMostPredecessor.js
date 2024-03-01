@@ -1,7 +1,7 @@
 import assert from 'assert';
 
-import node from './node.js';
 import heads from './heads.js';
+import node from './node.js';
 import predecessorOnPreviousLevel from './predecessorOnPreviousLevel.js';
 
 const insertFromBottomMostPredecessor = (p, pred, key) => {

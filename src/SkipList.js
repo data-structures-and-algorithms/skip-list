@@ -1,14 +1,15 @@
 import assert from 'assert';
+
 import Node from './Node.js';
-import keys from './keys.js';
-import iter from './iter.js';
-import downMost from './downMost.js';
-import searchTopMost from './searchTopMost.js';
 import bottomMostPredecessor from './bottomMostPredecessor.js';
 import deleteFromTopMost from './deleteFromTopMost.js';
+import downMost from './downMost.js';
 import insertFromBottomMostPredecessor from './insertFromBottomMostPredecessor.js';
-import makeQuasiRandom from './makeQuasiRandom.js';
+import iter from './iter.js';
+import keys from './keys.js';
 import makeBottomLevel from './makeBottomLevel.js';
+import makeQuasiRandom from './makeQuasiRandom.js';
+import searchTopMost from './searchTopMost.js';
 
 /**
  * @param {Number} p Promotion probability in (0,1).

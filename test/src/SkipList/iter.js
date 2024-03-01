@@ -1,10 +1,9 @@
 import test from 'ava';
 
-import {increasing, decreasing} from '@total-order/primitive';
-
 import {list} from '@iterable-iterator/list';
-import {range} from '@iterable-iterator/range';
 import {map} from '@iterable-iterator/map';
+import {range} from '@iterable-iterator/range';
+import {increasing, decreasing} from '@total-order/primitive';
 
 import {SkipList} from '#module';
 
